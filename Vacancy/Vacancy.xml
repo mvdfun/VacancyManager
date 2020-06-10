@@ -1,0 +1,161 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>VacancyManager</name>
+    </assembly>
+    <members>
+        <member name="T:VacancyManager.Controllers.VacancyController">
+            <summary>
+            Контроллер Вакансий
+            </summary>
+        </member>
+        <member name="F:VacancyManager.Controllers.VacancyController._baseUrl">
+            <summary>
+            Базовый Url API HeadHunter
+            </summary>
+        </member>
+        <member name="M:VacancyManager.Controllers.VacancyController.GetVacancies(VacancyManager.Models.Vacancy)">
+            <summary>
+            Получение вакансии по заданному параметру
+            </summary>
+            <param name="request">Сущность поискового запроса</param>
+            <returns>Возвращает все найденные вакансии в запросе</returns>
+        </member>
+        <member name="M:VacancyManager.Controllers.VacancyController.Test">
+            <summary>
+            Тестовый метод для сваггера
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="F:VacancyManager.Enums.EmploymentEnum.Default">
+            <summary>
+            Не указано
+            </summary>
+        </member>
+        <member name="F:VacancyManager.Enums.EmploymentEnum.Full">
+            <summary>
+            Полная занятость
+            </summary>
+        </member>
+        <member name="F:VacancyManager.Enums.EmploymentEnum.Part">
+            <summary>
+            Частичная занятость
+            </summary>
+        </member>
+        <member name="F:VacancyManager.Enums.EmploymentEnum.Project">
+            <summary>
+            Проектная работа
+            </summary>
+        </member>
+        <member name="F:VacancyManager.Enums.EmploymentEnum.Volunteer">
+            <summary>
+            Волонтерство
+            </summary>
+        </member>
+        <member name="F:VacancyManager.Enums.EmploymentEnum.Probation">
+            <summary>
+            Стажировка
+            </summary>
+        </member>
+        <member name="F:VacancyManager.Enums.ExperienceEnum.Default">
+            <summary>
+            Не указано
+            </summary>
+        </member>
+        <member name="F:VacancyManager.Enums.ExperienceEnum.NoExperience">
+            <summary>
+            Без опыта
+            </summary>
+        </member>
+        <member name="F:VacancyManager.Enums.ExperienceEnum.Between1And3">
+            <summary>
+            От 1 года до 3 лет
+            </summary>
+        </member>
+        <member name="F:VacancyManager.Enums.ExperienceEnum.Between3And6">
+            <summary>
+            От 3 до 6 лет
+            </summary>
+        </member>
+        <member name="F:VacancyManager.Enums.ExperienceEnum.MoreThan6">
+            <summary>
+            Более 6 лет
+            </summary>
+        </member>
+        <member name="F:VacancyManager.Enums.GenderEnum.Default">
+            <summary>
+            Не указано
+            </summary>
+        </member>
+        <member name="F:VacancyManager.Enums.GenderEnum.Female">
+            <summary>
+            Женский
+            </summary>
+        </member>
+        <member name="F:VacancyManager.Enums.GenderEnum.Male">
+            <summary>
+            Мужской
+            </summary>
+        </member>
+        <member name="F:VacancyManager.Enums.ScheduleEnum.Default">
+            <summary>
+            Не указано
+            </summary>
+        </member>
+        <member name="F:VacancyManager.Enums.ScheduleEnum.FullDay">
+            <summary>
+            Полный день
+            </summary>
+        </member>
+        <member name="F:VacancyManager.Enums.ScheduleEnum.Shift">
+            <summary>
+            Сменный график
+            </summary>
+        </member>
+        <member name="F:VacancyManager.Enums.ScheduleEnum.Flexible">
+            <summary>
+            Гибкий график
+            </summary>
+        </member>
+        <member name="F:VacancyManager.Enums.ScheduleEnum.Remote">
+            <summary>
+            Удаленная работа
+            </summary>
+        </member>
+        <member name="F:VacancyManager.Enums.ScheduleEnum.FlyInFlyOut">
+            <summary>
+            Вахтовый метод
+            </summary>
+        </member>
+        <member name="T:VacancyManager.Models.Vacancy">
+            <summary>
+            Модель запроса вакансии
+            </summary>
+        </member>
+        <member name="P:VacancyManager.Models.Vacancy.Text">
+            <summary>
+            Текст запроса
+            </summary>
+        </member>
+        <member name="P:VacancyManager.Models.Vacancy.Gender">
+            <summary>
+            Пол
+            </summary>
+        </member>
+        <member name="P:VacancyManager.Models.Vacancy.Employment">
+            <summary>
+            Тип занятости
+            </summary>
+        </member>
+        <member name="P:VacancyManager.Models.Vacancy.Experience">
+            <summary>
+            Опыт работы
+            </summary>
+        </member>
+        <member name="P:VacancyManager.Models.Vacancy.Schedule">
+            <summary>
+            График работы
+            </summary>
+        </member>
+    </members>
+</doc>
